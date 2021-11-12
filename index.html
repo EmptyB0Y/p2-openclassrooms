@@ -7,18 +7,18 @@
 
   <link rel="stylesheet" href="css-reset.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
 </head>
 <body>
   <div class="global-frame">
     <header>
       <div class="top">
         <div class="logo">
-        <img src="images\logo\Booki.png" alt="logo" width="100" height="40"/>
+        <img src="images/logo/Booki.png" alt="logo" width="100" height="40"/>
       </div>
         <div class="nav">
-          <a>Hébérgements</a>
-          <a>Activités</a>
+          <a href="#">Hébérgements</a>
+          <a href="#">Activités</a>
         </div>
       </div>
     <div class="search">
@@ -30,14 +30,10 @@
         <div class="searchbar-icon">
           <i class="fas fa-map-marker-alt"></i>
         </div>
-        <p><input type="text" name="Trouver un hébergement" />
-            <div id="desktop-button">
-          <button>Rechercher</button>
-        </div>
-          <div id="mobile-button">
-          <button><i class="fas fa-search"></i></button>
-        </div>
-        </p>
+        <form><input type="text" name="Trouver un hébergement" />
+          <button id="mobile-button"><i class="fas fa-search"></i></button>
+          <button id="desktop-button">Rechercher</button>
+    </form>
     </div>
     </div>
     <div class="filters">
@@ -85,7 +81,9 @@
                     </div>
 
                     <div class="results-box-content">
-                        <article class="tile">
+                        <article class="tile result-tile">
+                            <a href="#">
+
                             <div class="result-tile-padding">
                                 <picture class="tile-img result-tile-img">
                                     <source
@@ -108,9 +106,11 @@
                                     </div>
                                 </div>
                             </div>
+                            </a>
                         </article>
+                        <article class="tile result-tile">
+                         <a href="#">
 
-                        <article class="tile">
                             <div class="result-tile-padding">
                                 <picture class="tile-img result-tile-img">
                                     <source
@@ -131,9 +131,12 @@
                                     </div>
                                 </div>
                             </div>
-                        </article>
+                        </a>
 
-                        <article class="tile">
+                        </article>
+                        <article class="tile result-tile">
+                            <a href="#">
+
                             <div class="result-tile-padding">
                                 <picture class="tile-img result-tile-img">
                                     <source
@@ -154,9 +157,12 @@
                                     </div>
                                 </div>
                             </div>
-                        </article>
+                        </a>
 
-                        <article class="tile">
+                        </article>
+                        <article class="tile result-tile">
+                            <a href="#">
+
                             <div class="result-tile-padding">
                                 <picture class="tile-img result-tile-img">
                                     <source
@@ -177,9 +183,12 @@
                                     </div>
                                 </div>
                             </div>
-                        </article>
+                        </a>
 
-                        <article class="tile">
+                        </article>
+                        <article class="tile result-tile">
+                            <a href="#">
+
                             <div class="result-tile-padding">
                                 <picture class="tile-img result-tile-img">
                                     <source
@@ -200,9 +209,12 @@
                                     </div>
                                 </div>
                             </div>
-                        </article>
+                        </a>
 
-                        <article class="tile">
+                        </article>
+                        <article class="tile result-tile">
+                            <a href="#">
+
                             <div class="result-tile-padding">
                                 <picture class="tile-img result-tile-img">
                                     <source
@@ -223,6 +235,8 @@
                                     </div>
                                 </div>
                             </div>
+                        </a>
+
                         </article>
                     </div>
                     <div class="results-box-bottom">
@@ -243,6 +257,8 @@
 
                     <div class="trends-box-content">
                         <div class="tile trend-tile">
+                            <a href="#">
+
                             <div class="trend-tile-padding">
                                 <picture class="tile-img trend-tile-img">
                                     <source
@@ -252,7 +268,7 @@
                                     <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Photo de l'Hôtel Le soleil du matin">
                                 </picture>
                                 <div class="tile-content trend-tile-content">
-                                    <h2 class="trend-tile-title tile-title">Hôtel Le soleil du matin</h2>
+                                    <h2 class="tile-title">Hôtel Le soleil du matin</h2>
                                     <p>Nuit à partir de 128€</p>
                                     <div class="stars trend-stars">
                                         <i class="fas fa-star blue"></i>
@@ -263,15 +279,18 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
 
+                        </div>
                         <div class="tile trend-tile">
+                            <a href="#">
+
                             <div class="trend-tile-padding">
                                 <picture class="tile-img trend-tile-img">
                                     <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Photo des Chambres d'hôtes Au coeur de l'eau">
                                 </picture>
                                 <div class="tile-content trend-tile-content">
-                                    <h2 class="trend-tile-title tile-title">Au coeur de l'eau Chambres d'hôtes</h2>
+                                    <h2 class="tile-title">Au coeur de l'eau Chambres d'hôtes</h2>
                                     <p>Nuit à partir de 71€</p>
                                     <div class="stars trend-stars">
                                         <i class="fas fa-star blue"></i>
@@ -282,15 +301,18 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
 
+                        </div>
                         <div class="tile trend-tile">
+                            <a href="#">
+
                             <div class="trend-tile-padding">
                                 <picture class="tile-img trend-tile-img">
                                     <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Photo de l'Hôtel Tout bleu et Blanc">
                                 </picture>
                                 <div class="tile-content trend-tile-content">
-                                    <h2 class="trend-tile-title tile-title">Hôtel Tout bleu et Blanc</h2>
+                                    <h2 class="tile-title">Hôtel Tout bleu et Blanc</h2>
                                     <p>Nuit à partir de 68€</p>
                                     <div class="stars trend-stars">
                                         <i class="fas fa-star blue"></i>
@@ -301,6 +323,8 @@
                                     </div>
                                 </div>
                             </div>
+                        </a>
+
                         </div>
                     </div>
                 </div>
@@ -315,10 +339,11 @@
         
                             <div class="activities-box-content">
                                 <div class="activities-column">
+                                <a href="#">
                                     <div class="tile activity-tile activity-one">
                                         <picture class="tile-img activity-tile-img">
                                             <source
-                                                srcset="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                                                srcset="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg "
                                                 media="(max-width: 1095px)"
                                             />
                                             <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Photo du Vieux Port">
@@ -328,14 +353,15 @@
                                             <h2>Vieux Port</h2>
                                         </div>
                                     </div>
+                                </a>
                                 </div>
         
                                 <div class="activities-column">
+                                <a href="#">
                                     <div class="tile activity-tile activity-two">
-        
                                         <picture class="tile-img activity-tile-img">
                                             <source
-                                                srcset="images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                                                srcset="images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg "
                                                 media="(max-width: 1095px)"
                                             />
                                             <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Photo du Fort de Pomègues">
@@ -345,6 +371,8 @@
                                             <h2>Fort de Pomègues</h2>
                                         </div>
                                     </div>
+                                </a>
+                                <a href="#">
                                     <div class="tile activity-tile activity-three">
                                         <picture class="tile-img activity-tile-img">
                                             <source
@@ -361,9 +389,11 @@
                                             <h2>Îles du Frioul</h2>
                                         </div>
                                     </div>
+                                </a>
                                 </div>
         
                                 <div class="activities-column">
+                                <a href="#">
                                     <div class="tile activity-tile activity-four">
                                         <picture class="tile-img activity-tile-img">
                                             <source
@@ -380,9 +410,11 @@
                                             <h2>Parc National des Calanques</h2>
                                         </div>
                                     </div>
+                                </a>
                                 </div>
         
                                 <div class="activities-column">
+                                <a href="#">
                                     <div class="tile activity-tile activity-five">
                                         <picture class="tile-img activity-tile-img">
                                             <source
@@ -399,6 +431,8 @@
                                             <h2>Notre-Dame-de-la-Garde</h2>
                                         </div>
                                     </div>
+                                </a>
+                                <a href="#">
                                     <div class="tile activity-tile activity-six">
                                         <picture class="tile-img activity-tile-img">
                                             <source
@@ -415,6 +449,7 @@
                                             <h2>Parc Longchamps</h2>
                                         </div>
                                     </div>
+                                </a>
                                 </div>
                             </div>
                         </div>
@@ -448,7 +483,7 @@
                 </ul>
             </div>
         </div>
-      </div>
       </footer>
+    </div>
 </body>
 </html>
