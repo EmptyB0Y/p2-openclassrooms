@@ -10,7 +10,7 @@ width : 100%;
 }
 
 .global-frame{
-max-width: 1600px;
+max-width: 1500px;
 margin-right: auto;
 margin-left: auto;
 }
@@ -319,7 +319,7 @@ flex-direction: column;
 
 /*TREND-TILE*/
 .trend-tile{
-width: 350px;
+width: auto;
 height: 135px;
 }
 
